@@ -12,3 +12,4 @@ function updateVisualizer(amplitude) {
   innerWave.style.opacity = amplitude;
   innerWave.style.transform = `scale(${amplitude})`;
 }
+
