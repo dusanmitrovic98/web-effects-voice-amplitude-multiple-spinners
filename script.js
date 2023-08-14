@@ -14,3 +14,4 @@ function updateVisualizer(amplitude) {
 }
 
 function simulateVoiceInput() {
+  const maxAmplitude = 0.8;
