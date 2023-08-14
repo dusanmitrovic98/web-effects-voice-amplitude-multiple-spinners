@@ -6,3 +6,4 @@ function updateVisualizer(amplitude) {
   const dashOffset = 880 - amplitude * 1200; // Adjust based on input
 
   document.querySelectorAll(".outer-ring").forEach((ring, index) => {
+    ring.style.strokeDashoffset = dashOffset + index * 20; // Adjust the multiplier for spacing
