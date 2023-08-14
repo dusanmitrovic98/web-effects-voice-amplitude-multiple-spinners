@@ -8,3 +8,4 @@ function updateVisualizer(amplitude) {
   document.querySelectorAll(".outer-ring").forEach((ring, index) => {
     ring.style.strokeDashoffset = dashOffset + index * 20; // Adjust the multiplier for spacing
   });
+
