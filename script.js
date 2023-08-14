@@ -9,3 +9,4 @@ function updateVisualizer(amplitude) {
     ring.style.strokeDashoffset = dashOffset + index * 20; // Adjust the multiplier for spacing
   });
 
+  innerWave.style.opacity = amplitude;
