@@ -21,3 +21,4 @@ body {
     fill: none;
     stroke-width: 10;
     stroke-dasharray: 880;
+    stroke-dashoffset: 0;
