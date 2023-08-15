@@ -23,7 +23,6 @@ body {
     stroke-dasharray: 880;
     stroke-dashoffset: 0;
     transition: stroke-dashoffset 0.5s ease-in-out;
-    
 }
 
 .outer-ring-1 {
